@@ -1,5 +1,5 @@
 
-import { Home, Bed, Bath } from 'lucide-react';
+import { Home, Bed, Bath, Globe, Users, Shield, Zap } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -13,10 +13,10 @@ const HeroSection = () => {
           {/* Logo */}
           <div className="flex items-center gap-3 order-1 md:order-1">
             <div className="w-6 h-6 md:w-8 md:h-8 bg-white rounded-full flex items-center justify-center">
-              <Home className="w-2.5 h-2.5 md:w-3 md:h-3 text-black" />
+              <Globe className="w-2.5 h-2.5 md:w-3 md:h-3 text-black" />
             </div>
             <div className="text-white text-xs font-dm-mono font-medium uppercase tracking-wider-2">
-              Cold Spring Luxury Cottage
+              Digital Ownership Platform
             </div>
           </div>
 
@@ -26,16 +26,16 @@ const HeroSection = () => {
               Overview
             </button>
             <button className="px-3 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/10 text-white text-xs font-dm-mono font-medium uppercase tracking-wider-2 hover:bg-white/20 transition-all">
-              Gallery
+              Features
             </button>
             <button className="px-3 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/10 text-white text-xs font-dm-mono font-medium uppercase tracking-wider-2 hover:bg-white/20 transition-all">
-              Location
+              Technology
             </button>
           </div>
 
           {/* Contact Button */}
           <button className="px-3 py-2 bg-white rounded-full shadow-lg backdrop-blur-sm text-black text-xs font-dm-mono font-medium uppercase tracking-wider-2 hover:bg-gray-100 transition-all order-3">
-            Contact
+            Get Started
           </button>
         </div>
       </div>
@@ -55,63 +55,63 @@ const HeroSection = () => {
             {/* Feature Pills */}
             <div className="flex flex-col sm:flex-row items-center gap-3 justify-center sm:justify-start">
               <div className="w-full sm:w-auto min-w-[160px] px-4 md:px-6 py-4 md:py-5 bg-glass-gradient backdrop-blur-sm rounded-full border border-white/20 shadow-lg flex flex-col items-center gap-2.5">
-                <Home className="w-5 h-5 md:w-6 md:h-6 text-white/65" />
+                <Globe className="w-5 h-5 md:w-6 md:h-6 text-white/65" />
                 <div className="text-white text-sm font-space-grotesk font-medium text-center">
-                  2,100 SF
+                  Global Access
                 </div>
               </div>
               
               <div className="w-full sm:w-auto min-w-[160px] px-4 md:px-6 py-4 md:py-5 bg-glass-gradient backdrop-blur-sm rounded-full border border-white/20 shadow-lg flex flex-col items-center gap-2.5">
-                <Bed className="w-5 h-5 md:w-6 md:h-6 text-white/65" />
+                <Shield className="w-5 h-5 md:w-6 md:h-6 text-white/65" />
                 <div className="text-white text-sm font-space-grotesk font-medium text-center">
-                  3 Beds
+                  Secure
                 </div>
               </div>
               
               <div className="w-full sm:w-auto min-w-[160px] px-4 md:px-6 py-4 md:py-5 bg-glass-gradient backdrop-blur-sm rounded-full border border-white/20 shadow-lg flex flex-col items-center gap-2.5">
-                <Bath className="w-5 h-5 md:w-6 md:h-6 text-white/65" />
+                <Zap className="w-5 h-5 md:w-6 md:h-6 text-white/65" />
                 <div className="text-white text-sm font-space-grotesk font-medium text-center">
-                  2 Baths
+                  Instant
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Property Details */}
+          {/* Digital Platform Details */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             <div className="flex flex-col gap-1.5 text-center md:text-left">
               <div className="text-white text-xs font-dm-mono font-medium uppercase tracking-wider-2">
-                Property Type
+                Platform Type
               </div>
               <div className="text-white text-2xl md:text-[40px] font-space-grotesk font-normal uppercase leading-tight md:leading-[38.40px]">
-                Cottage
+                Blockchain
               </div>
             </div>
             
             <div className="flex flex-col gap-1.5 text-center">
               <div className="text-white text-xs font-dm-mono font-medium uppercase tracking-wider-2">
-                Lot Size
+                Network
               </div>
               <div className="text-white text-2xl md:text-[40px] font-space-grotesk font-normal uppercase leading-tight md:leading-[38.40px]">
-                1.5 Acres
+                Ethereum
               </div>
             </div>
             
             <div className="flex flex-col gap-1.5 text-center">
               <div className="text-white text-xs font-dm-mono font-medium uppercase tracking-wider-2">
-                Built In
+                Launch Date
               </div>
               <div className="text-white text-2xl md:text-[40px] font-space-grotesk font-normal uppercase leading-tight md:leading-[38.40px]">
-                Jun 2013
+                2024
               </div>
             </div>
             
             <div className="flex flex-col gap-1.5 text-center md:text-right">
               <div className="text-white text-xs font-dm-mono font-medium uppercase tracking-wider-2">
-                Availability
+                Status
               </div>
               <div className="text-white text-2xl md:text-[40px] font-space-grotesk font-normal uppercase leading-tight md:leading-[38.40px]">
-                For Sale
+                Live
               </div>
             </div>
           </div>
