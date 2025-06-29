@@ -3,7 +3,17 @@ import { Home, Bed, Bath, Globe, Users, Shield, Zap } from 'lucide-react';
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen min-h-[900px] bg-cottage-hero bg-cover bg-center bg-no-repeat flex flex-col">
+    <div className="relative w-full h-screen min-h-[900px] flex flex-col">
+      {/* Background Video */}
+      <video 
+        src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751180321/aitoofwblqmjmaqbhdvy.mp4"
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+      />
+      
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/25"></div>
       
