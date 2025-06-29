@@ -9,7 +9,7 @@ const GallerySection = () => {
             Gallery
           </div>
           <div className="w-full max-w-[480px] text-center text-black text-3xl md:text-[48px] font-space-grotesk font-normal uppercase leading-tight md:leading-[51.84px]">
-            Visual Tour of Your Future Home
+            Explore Digital Property Assets
           </div>
         </div>
 
@@ -38,7 +38,7 @@ const GallerySection = () => {
             />
           </div>
 
-          {/* Second Row - Full width with 3D tour overlay */}
+          {/* Second Row - Full width with platform demo overlay */}
           <div 
             className="w-full h-[800px] p-6 rounded-[40px] flex flex-col justify-center items-center bg-cover bg-center"
             style={{
@@ -48,15 +48,15 @@ const GallerySection = () => {
             <div className="w-full max-w-[480px] px-6 py-10 bg-glass-gradient backdrop-blur-[10px] rounded-3xl border border-white/20 shadow-[0px_24px_32px_rgba(0,0,0,0.05)] flex flex-col justify-start items-center gap-6">
               <div className="w-full flex flex-col justify-start items-center gap-4">
                 <div className="w-full text-center text-white/65 text-xs font-dm-mono font-medium uppercase tracking-wider-2 leading-[16.32px]">
-                  3D Tour
+                  Live Demo
                 </div>
                 <div className="w-full max-w-[480px] text-center text-white text-3xl md:text-[48px] font-space-grotesk font-normal uppercase leading-tight md:leading-[51.84px]">
-                  Enjoy a Full Virtual Tour
+                  Try Our Platform Interface
                 </div>
               </div>
               <button className="px-3 py-2 bg-white shadow-[0px_16px_24px_rgba(0,0,0,0.03)] rounded-full backdrop-blur-[7.5px] flex justify-center items-center gap-1.5">
                 <div className="text-center text-black text-xs font-dm-mono font-medium uppercase tracking-wider-2 leading-[16.32px]">
-                  Take a Tour
+                  Launch Demo
                 </div>
               </button>
             </div>
