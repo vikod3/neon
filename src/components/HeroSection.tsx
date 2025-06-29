@@ -1,18 +1,8 @@
-
 import { Home, Bed, Bath, Globe, Users, Shield, Zap } from 'lucide-react';
-
 const HeroSection = () => {
-  return (
-    <div className="relative w-full h-screen min-h-[900px] flex flex-col">
+  return <div className="relative w-full h-screen min-h-[900px] flex flex-col">
       {/* Background Video */}
-      <video 
-        src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751203261/Animate_this_image_202506291709_ckpej_p2yjqa.mp4"
-        className="absolute inset-0 w-full h-full object-cover"
-        autoPlay 
-        muted 
-        loop 
-        playsInline
-      />
+      <video src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751203261/Animate_this_image_202506291709_ckpej_p2yjqa.mp4" className="absolute inset-0 w-full h-full object-cover" autoPlay muted loop playsInline />
       
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/25"></div>
@@ -57,9 +47,7 @@ const HeroSection = () => {
           <div className="flex flex-col gap-6 md:gap-8">
             {/* Main Title */}
             <div className="max-w-full md:max-w-[476px]">
-              <h1 className="text-white font-space-grotesk text-4xl md:text-[88px] font-normal uppercase leading-tight md:leading-[84.48px] tracking-tight">
-                A New Era of Digital Ownership
-              </h1>
+              <h1 className="text-white font-space-grotesk text-4xl md:text-[88px] font-normal uppercase leading-tight md:leading-[84.48px] tracking-tight">A NEW ERA OF DIGITAL OWNERSHIP</h1>
             </div>
 
             {/* Feature Pills */}
@@ -127,8 +115,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default HeroSection;
