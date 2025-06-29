@@ -1,8 +1,8 @@
-
 import HeroSection from "@/components/HeroSection";
 import OverviewSection from "@/components/OverviewSection";
 import GallerySection from "@/components/GallerySection";
 import AboutSection from "@/components/AboutSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -11,6 +11,7 @@ const Index = () => {
       <OverviewSection />
       <GallerySection />
       <AboutSection />
+      <Footer />
     </div>
   );
 };
