@@ -6,10 +6,10 @@ const GallerySection = () => {
         {/* Header */}
         <div className="w-full flex flex-col justify-start items-center gap-4">
           <div className="w-full text-center text-black/50 text-xs font-dm-mono font-medium uppercase tracking-wider-2 leading-[16.32px]">
-            Gallery
+            Platform
           </div>
           <div className="w-full max-w-[480px] text-center text-black text-3xl md:text-[48px] font-space-grotesk font-normal uppercase leading-tight md:leading-[51.84px]">
-            Visual Tour of Your Future Home
+            Experience Digital Ownership Interface
           </div>
         </div>
 
@@ -22,19 +22,19 @@ const GallerySection = () => {
               <img 
                 className="w-full h-[330px] rounded-[40px] object-cover" 
                 src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" 
-                alt="Living room interior"
+                alt="Digital dashboard interface"
               />
               <img 
                 className="w-full h-[330px] rounded-[40px] object-cover" 
                 src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" 
-                alt="Kitchen interior"
+                alt="Blockchain transaction view"
               />
             </div>
             {/* Right large image */}
             <img 
               className="flex-1 h-[684px] rounded-[40px] object-cover" 
               src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1038&h=684&q=80" 
-              alt="Exterior view of cottage"
+              alt="Platform overview screen"
             />
           </div>
 
@@ -48,17 +48,17 @@ const GallerySection = () => {
             <div className="w-full max-w-[480px] px-6 py-10 bg-glass-gradient backdrop-blur-[10px] rounded-3xl border border-white/20 shadow-[0px_24px_32px_rgba(0,0,0,0.05)] flex flex-col justify-start items-center gap-6">
               <div className="w-full flex flex-col justify-start items-center gap-4">
                 <div className="w-full text-center text-white/65 text-xs font-dm-mono font-medium uppercase tracking-wider-2 leading-[16.32px]">
-                  3D Tour
+                  Demo Access
                 </div>
                 <div className="w-full max-w-[480px] text-center text-white text-3xl md:text-[48px] font-space-grotesk font-normal uppercase leading-tight md:leading-[51.84px]">
-                  Enjoy a Full Virtual Tour
+                  Try Our Platform Demo Live
                 </div>
               </div>
               <button className="px-3 py-2 bg-white shadow-[0px_16px_24px_rgba(0,0,0,0.03)] rounded-full backdrop-blur-[7.5px] flex justify-center items-center gap-1.5">
                 <div className="text-center text-black text-xs font-dm-mono font-medium uppercase tracking-wider-2 leading-[16.32px]">
-                  Take a Tour
+                  Launch Demo
                 </div>
-              </button>
+              </div>
             </div>
           </div>
         </div>

@@ -18,10 +18,10 @@ const OverviewSection = () => {
             </div>
             <div className="flex flex-col gap-3">
               <div className="max-w-[328px] text-white text-sm font-space-grotesk font-medium leading-[19.04px]">
-                "This cottage has been a peaceful and special place for us. We hope it brings as much comfort and joy to you as it did to our family."
+                "This platform represents the future of property ownership. We're proud to pioneer digital real estate that offers security and transparency for all."
               </div>
               <div className="text-white/65 text-sm font-space-grotesk font-medium leading-[19.04px]">
-                Jack Simons, Owner
+                Sarah Chen, Platform Director
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const OverviewSection = () => {
               Overview
             </div>
             <div className="max-w-[640px] text-black text-3xl md:text-[48px] font-space-grotesk font-normal uppercase leading-tight md:leading-[51.84px]">
-              Cozy cottage in Cold Spring, NY featuring a modern kitchen, wood-burning fireplace, and a private deck. for sale
+              Revolutionary blockchain platform enabling secure digital property ownership with smart contracts and global accessibility now available
             </div>
           </div>
 
@@ -46,19 +46,19 @@ const OverviewSection = () => {
               <div className="flex-1 px-6 py-12 bg-white flex flex-col items-center gap-2.5">
                 <Home className="w-6 h-6 text-black/50" />
                 <div className="text-center text-black text-sm font-space-grotesk font-medium leading-[19.04px]">
-                  2 Floors
+                  Smart Contracts
                 </div>
               </div>
               <div className="flex-1 px-6 py-12 bg-white flex flex-col items-center gap-2.5">
                 <Building2 className="w-6 h-6 text-black/50" />
                 <div className="text-center text-black text-sm font-space-grotesk font-medium leading-[19.04px]">
-                  Full Basement
+                  Decentralized
                 </div>
               </div>
               <div className="flex-1 px-6 py-12 bg-white flex flex-col items-center gap-2.5">
                 <Waves className="w-6 h-6 text-black/50" />
                 <div className="text-center text-black text-sm font-space-grotesk font-medium leading-[19.04px]">
-                  Creek Access
+                  Global Access
                 </div>
               </div>
             </div>
@@ -68,19 +68,19 @@ const OverviewSection = () => {
               <div className="flex-1 px-6 py-12 bg-white flex flex-col items-center gap-2.5">
                 <Sun className="w-6 h-6 text-black/50" />
                 <div className="text-center text-black text-sm font-space-grotesk font-medium leading-[19.04px]">
-                  South-Facing
+                  24/7 Trading
                 </div>
               </div>
               <div className="flex-1 px-6 py-12 bg-white flex flex-col items-center gap-2.5">
                 <Car className="w-6 h-6 text-black/50" />
                 <div className="text-center text-black text-sm font-space-grotesk font-medium leading-[19.04px]">
-                  Driveway Parking
+                  Instant Transfer
                 </div>
               </div>
               <div className="flex-1 px-6 py-12 bg-white flex flex-col items-center gap-2.5">
                 <Sun className="w-6 h-6 text-black/50" />
                 <div className="text-center text-black text-sm font-space-grotesk font-medium leading-[19.04px]">
-                  Sunny Rooms
+                  Transparent
                 </div>
               </div>
             </div>
