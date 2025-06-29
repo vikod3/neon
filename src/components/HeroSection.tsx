@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className="relative w-full h-screen min-h-[900px] flex flex-col">
       {/* Background Video */}
       <video 
-        src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751180641/Animate_the_scene_202506291403_95ywb_eihczo.mp4"
+        src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751191354/Animate_this_image_202506291659_pi2oe_g1gijq.mp4"
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay 
         muted 
