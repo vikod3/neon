@@ -34,22 +34,22 @@ const AboutSection = () => {
 
   return (
     <div className="w-full bg-gray-100 flex justify-center items-center">
-      <div className="w-full max-w-[1640px] flex">
-        <div className="flex-1 pt-20 pb-2 px-7 flex flex-col gap-16">
+      <div className="w-full max-w-[1640px] flex flex-col lg:flex-row">
+        <div className="flex-1 pt-12 lg:pt-20 pb-2 px-4 lg:px-7 flex flex-col gap-8 lg:gap-16">
           <div className="flex flex-col gap-3">
             <div className="text-black/50 text-xs font-dm-mono font-medium uppercase tracking-wider-2 leading-[16.32px]">
               ABOUT US
             </div>
-            <div className="w-[402px] text-black text-[48px] font-space-grotesk font-normal uppercase leading-[51.84px]">
+            <div className="w-full lg:w-[402px] text-black text-3xl lg:text-[48px] font-space-grotesk font-normal uppercase leading-[36px] lg:leading-[51.84px]">
               Who We Are. Why We Innovate
             </div>
           </div>
           
           <div className="flex flex-col overflow-hidden">
             {accordionItems.map((item, index) => (
-              <div key={index} className="border-t border-black/[0.08] py-5 flex flex-col gap-4">
+              <div key={index} className="border-t border-black/[0.08] py-4 lg:py-5 flex flex-col gap-3 lg:gap-4">
                 <div 
-                  className="flex justify-between items-end gap-6 cursor-pointer"
+                  className="flex justify-between items-end gap-4 lg:gap-6 cursor-pointer"
                   onClick={() => toggleItem(index)}
                 >
                   <div className="flex-1 text-black text-sm font-space-grotesk font-medium leading-[19.04px]">
@@ -64,7 +64,7 @@ const AboutSection = () => {
                   </div>
                 </div>
                 {openItem === index && (
-                  <div className="pr-10">
+                  <div className="pr-6 lg:pr-10">
                     <div className="flex-1 max-w-[560px] text-black/75 text-sm font-sans leading-[19.04px]">
                       {item.content}
                     </div>
@@ -76,7 +76,7 @@ const AboutSection = () => {
         </div>
         
         <img 
-          className="flex-1 h-auto object-cover" 
+          className="flex-1 h-64 lg:h-auto object-cover" 
           src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&h=648&q=80" 
           alt="Digital platform interface"
         />
