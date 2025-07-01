@@ -19,8 +19,8 @@ const GallerySection = () => {
           <div className="w-full flex flex-col lg:flex-row gap-4 lg:gap-6">
             {/* Left column with two stacked images */}
             <div className="w-full lg:flex-1 lg:max-w-[330px] flex flex-col gap-4 lg:gap-6">
-              <img className="w-[250px] h-[250px] lg:h-[330px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" alt="Digital dashboard interface" />
-              <img className="w-[250px] h-[250px] lg:h-[330px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" alt="Blockchain transaction view" />
+              <img className="w-full h-[250px] lg:h-[330px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" alt="Digital dashboard interface" />
+              <img className="w-full h-[250px] lg:h-[330px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" alt="Blockchain transaction view" />
             </div>
             {/* Right large video */}
             <video 
