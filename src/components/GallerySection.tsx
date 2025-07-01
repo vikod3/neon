@@ -26,10 +26,16 @@ const GallerySection = () => {
           </div>
 
           {/* Second Row - Full width with platform demo overlay */}
-          <div className="w-full h-[500px] lg:h-[800px] p-4 lg:p-6 rounded-[20px] lg:rounded-[40px] flex flex-col justify-center items-center bg-cover bg-center" style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1392&h=800&q=80)'
-        }}>
-            <div className="w-full max-w-[400px] lg:max-w-[480px] px-4 lg:px-6 py-6 lg:py-10 bg-glass-gradient backdrop-blur-[10px] rounded-2xl lg:rounded-3xl border border-white/20 shadow-[0px_24px_32px_rgba(0,0,0,0.05)] flex flex-col justify-start items-center gap-4 lg:gap-6">
+          <div className="w-full h-[500px] lg:h-[800px] p-4 lg:p-6 rounded-[20px] lg:rounded-[40px] flex flex-col justify-center items-center relative overflow-hidden">
+            <video 
+              className="absolute inset-0 w-full h-full object-cover rounded-[20px] lg:rounded-[40px]"
+              src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751191354/Animate_this_image_202506291659_pi2oe_g1gijq.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
+            <div className="w-full max-w-[400px] lg:max-w-[480px] px-4 lg:px-6 py-6 lg:py-10 bg-glass-gradient backdrop-blur-[10px] rounded-2xl lg:rounded-3xl border border-white/20 shadow-[0px_24px_32px_rgba(0,0,0,0.05)] flex flex-col justify-start items-center gap-4 lg:gap-6 relative z-10">
               <div className="w-full flex flex-col justify-start items-center gap-3 lg:gap-4">
                 <div className="w-full text-center text-white/65 text-xs font-dm-mono font-medium uppercase tracking-wider-2 leading-[16.32px]">
                   Live Demo
