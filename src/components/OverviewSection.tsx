@@ -5,14 +5,17 @@ const OverviewSection = () => {
   return (
     <div className="w-full py-[200px] px-6 flex flex-col items-center">
       <div className="w-full max-w-[1600px] flex flex-col lg:flex-row items-center gap-6">
-        {/* Left side - Image with quote */}
-        <div 
-          className="flex-1 self-stretch p-6 rounded-[40px] flex flex-col justify-end items-start bg-cover bg-center min-h-[639px]"
-          style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1518780664697-55e3ad937233?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80)'
-          }}
-        >
-          <div className="w-full max-w-[400px] px-6 py-5 bg-glass-gradient backdrop-blur-sm rounded-3xl border border-white/20 shadow-lg flex flex-col gap-6">
+        {/* Left side - Video with quote */}
+        <div className="flex-1 self-stretch p-6 rounded-[40px] flex flex-col justify-end items-start bg-black/5 min-h-[639px] relative overflow-hidden">
+          <video 
+            className="absolute inset-0 w-full h-full object-cover rounded-[40px]"
+            src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751346384/It_shoudl_levitate_202506291707_k7ajz_wxrevo.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+          <div className="w-full max-w-[400px] px-6 py-5 bg-glass-gradient backdrop-blur-sm rounded-3xl border border-white/20 shadow-lg flex flex-col gap-6 relative z-10">
             <div className="w-5 h-5 relative">
               <div className="w-[16.25px] h-[11.88px] absolute top-[4.38px] left-[1.88px] bg-white/65"></div>
             </div>
