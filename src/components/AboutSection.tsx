@@ -75,10 +75,13 @@ const AboutSection = () => {
           </div>
         </div>
         
-        <img 
+        <video 
           className="flex-1 h-64 lg:h-auto object-cover" 
-          src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&auto=format&fit=crop&w=720&h=648&q=80" 
-          alt="Digital platform interface"
+          src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751346710/Aniamte_this_image_202506291716_wj8my_lpgovv.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
         />
       </div>
     </div>
