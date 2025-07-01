@@ -1,4 +1,5 @@
 
+
 const GallerySection = () => {
   return <div className="w-full py-[100px] lg:py-[200px] px-4 lg:px-6 bg-black/[0.02] border-t border-b border-black/[0.05] flex justify-center items-start">
       <div className="flex-1 max-w-[1600px] flex flex-col justify-start items-center gap-12 lg:gap-20">
@@ -21,8 +22,15 @@ const GallerySection = () => {
               <img className="w-full h-[250px] lg:h-[330px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" alt="Digital dashboard interface" />
               <img className="w-full h-[250px] lg:h-[330px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" alt="Blockchain transaction view" />
             </div>
-            {/* Right large image */}
-            <img className="w-full lg:flex-1 h-[300px] lg:h-[684px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1038&h=684&q=80" alt="Platform overview screen" />
+            {/* Right large video */}
+            <video 
+              className="w-full lg:flex-1 h-[300px] lg:h-[684px] rounded-[20px] lg:rounded-[40px] object-cover"
+              src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751346494/Animate_this_image_202506291634_dcwn5_wgvkba.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+            />
           </div>
 
           {/* Second Row - Full width with platform demo overlay */}
@@ -54,3 +62,4 @@ const GallerySection = () => {
     </div>;
 };
 export default GallerySection;
+
