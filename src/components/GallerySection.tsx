@@ -1,5 +1,3 @@
-
-
 const GallerySection = () => {
   return <div className="w-full py-[100px] lg:py-[200px] px-4 lg:px-6 bg-black/[0.02] border-t border-b border-black/[0.05] flex justify-center items-start">
       <div className="flex-1 max-w-[1600px] flex flex-col justify-start items-center gap-12 lg:gap-20">
@@ -19,30 +17,16 @@ const GallerySection = () => {
           <div className="w-full flex flex-col lg:flex-row gap-4 lg:gap-6">
             {/* Left column with two stacked images */}
             <div className="w-full lg:flex-1 lg:max-w-[330px] flex flex-col gap-4 lg:gap-6">
-              <img className="w-full h-[250px] lg:h-[330px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" alt="Digital dashboard interface" />
-              <img className="w-full h-[250px] lg:h-[330px] rounded-[20px] lg:rounded-[40px] object-cover" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=330&h=330&q=80" alt="Blockchain transaction view" />
+              
+              
             </div>
             {/* Right large video */}
-            <video 
-              className="w-full lg:flex-1 h-[300px] lg:h-[684px] rounded-[20px] lg:rounded-[40px] object-cover"
-              src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751346494/Animate_this_image_202506291634_dcwn5_wgvkba.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
+            
           </div>
 
           {/* Second Row - Full width with platform demo overlay */}
           <div className="w-full h-[500px] lg:h-[800px] p-4 lg:p-6 rounded-[20px] lg:rounded-[40px] flex flex-col justify-center items-center relative overflow-hidden">
-            <video 
-              className="absolute inset-0 w-full h-full object-cover rounded-[20px] lg:rounded-[40px]"
-              src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751191354/Animate_this_image_202506291659_pi2oe_g1gijq.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
+            <video className="absolute inset-0 w-full h-full object-cover rounded-[20px] lg:rounded-[40px]" src="https://res.cloudinary.com/da7s1izqw/video/upload/v1751191354/Animate_this_image_202506291659_pi2oe_g1gijq.mp4" autoPlay loop muted playsInline />
             <div className="w-full max-w-[400px] lg:max-w-[480px] px-4 lg:px-6 py-6 lg:py-10 bg-glass-gradient backdrop-blur-[10px] rounded-2xl lg:rounded-3xl border border-white/20 shadow-[0px_24px_32px_rgba(0,0,0,0.05)] flex flex-col justify-start items-center gap-4 lg:gap-6 relative z-10">
               <div className="w-full flex flex-col justify-start items-center gap-3 lg:gap-4">
                 <div className="w-full text-center text-white/65 text-xs font-dm-mono font-medium uppercase tracking-wider-2 leading-[16.32px]">
@@ -62,4 +46,3 @@ const GallerySection = () => {
     </div>;
 };
 export default GallerySection;
-
